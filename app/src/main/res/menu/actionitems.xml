@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionitem_delete"
+        android:icon="@drawable/delete"
+        app:showAsAction="always"
+        android:title="@string/delete"/>
+    <item
+        android:id="@+id/actionitem_add"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom"
+        android:title="@string/add"/>
+    <item
+        android:id="@+id/actionitem_email"
+        android:icon="@drawable/email"
+        app:showAsAction="never"
+        android:title="@string/email"/>
+</menu>

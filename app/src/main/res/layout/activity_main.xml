@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        android:text="@string/t1"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_1" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_2" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_3" />
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_4" />
+
+    <Button
+        android:id="@+id/bt5"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_5_gridview" />
+
+    <Button
+        android:id="@+id/bt6"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_6_cardview" />
+
+    <Button
+        android:id="@+id/bt7"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_7" />
+
+    <Button
+        android:id="@+id/bt8"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_8_actionbar" />
+
+    <Button
+        android:id="@+id/bt9"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_9_webview" />
+
+    <Button
+        android:id="@+id/bt10"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_10_recycleview" />
+
+    <Button
+        android:id="@+id/bt11"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_11_viewpager" />
+
+    <Button
+        android:id="@+id/bt12"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_12_api_fragment" />
+
+    <Button
+        android:id="@+id/bt13"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_13_drawerlayout" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">LearnSecond</string>
+    <string name="_1">练习1:SwipeRefreshLayout下拉刷新</string>
+    <string name="_2">练习2:图片任意缩放旋转</string>
+    <string name="_3">练习3:实现相册图片的切换</string>
+    <string name="_4">练习4:ProgressBar实现各种样式进度条</string>
+    <string name="_5_gridview">练习5:GridView实现相册图片切换</string>
+    <string name="_6_cardview">练习6:CardView使用</string>
+    <string name="_7">练习7:左右滑屏切换页面</string>
+    <string name="_8_actionbar">练习8:ActionBar实现各种效果动作栏</string>
+    <string name="_9_webview">练习9:WebView显示网页内容</string>
+    <string name="_10_recycleview">练习10:RecycleView的使用</string>
+    <string name="_11_viewpager">练习11:ViewPager左右滑屏切换页面</string>
+    <string name="_12_api_fragment">练习12:用系统API实现Fragment切换动画</string>
+    <string name="_13_drawerlayout">练习13:DrawerLayout实现侧滑菜单</string>
+    <string name="pull_to_random">下拉刷新产生一个新的随机数：</string>
+    <string name="image_width">图像宽度：</string>
+    <string name="image_height">图像高度：</string>
+    <string name="rotate_degree">旋转度数：</string>
+    <string name="initial_rotate_degree">旋转度数：0</string>
+    <string name="circle_progressbar_small">圆形进度条（小）</string>
+    <string name="circle_progressbar">圆形进度条（中）</string>
+    <string name="circle_progressbar_large">圆形进度条（大）</string>
+    <string name="horizontal_progressbar_onelevel">水平进度条（一级）</string>
+    <string name="horizontal_progressbar_twolevel">水平进度条（二级）</string>
+    <string name="increase_progress">增加进度</string>
+    <string name="decrease_progress">减少进度</string>
+    <string name="horizontal_progressbar_twolevel2">水平进度条（二级）修改颜色</string>
+    <string name="hello_cardView">Hello CardView!</string>
+    <string name="view1">View1</string>
+    <string name="view2">View2</string>
+    <string name="view3">View3</string>
+    <string name="view4">View4</string>
+    <string name="view5">View5</string>
+    <string name="delete">删除</string>
+    <string name="add">添加</string>
+    <string name="add_f">添加一个Fragment</string>
+    <string name="remove_f">删除一个Fragment</string>
+    <string name="email">发送邮件</string>
+    <string name="t1">练习内容:</string>
+    <string-array name="item_array">
+        <item>头条</item>
+        <item>直播</item>
+        <item>相册</item>
+        <item>收藏</item>
+        <item>本地</item>
+    </string-array>
+
+</resources>

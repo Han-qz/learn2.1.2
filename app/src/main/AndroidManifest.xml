@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- 添加访问网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearnSecond"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".DrawerLayout.MainActivity13"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment.MainActivity12"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPager.MainActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".RecycleView.MainActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".WebView.MainActivity9"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="url" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActionBar.MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".ViewFlipper.MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".CardView.MainActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".GridView.MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressBar.MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".ImageSwitcher.MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".ImageView.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SwipeRefreshLayout.MainActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
